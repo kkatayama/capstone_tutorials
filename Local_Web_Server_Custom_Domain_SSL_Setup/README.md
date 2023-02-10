@@ -35,7 +35,7 @@ The Following link explains how to add a Host A record:
 
 **Create an `A Record` with the following parameters:**
 > record for host domain
-```ini
+```rexx
  Type: A + Dynamic DNS Record
  Host: @
 Value: 127.0.0.1
@@ -43,7 +43,7 @@ Value: 127.0.0.1
 ```
 **Add a second `A Record`:**
 > record for subdomains
-```ini
+```rexx
  Type: A + Dynamic DNS Record
  Host: *
 Value: 127.0.0.1
