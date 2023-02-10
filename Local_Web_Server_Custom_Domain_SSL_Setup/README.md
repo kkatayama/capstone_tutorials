@@ -26,7 +26,9 @@ We will assign the IP Address as `127.0.0.1` for both records as a placeholder.
 After you create both records, your list should be similar to the following:
 ![dns_orig.png](dns_orig.png)
 
-#### 1.a NameCheap Instructions:
+---
+
+<details><summary>NameCheap Instructions: (click me to expand)</summary>
 
 The Following link explains how to add a Host A record:
 [https://www.namecheap.com/support/knowledgebase/article.aspx/43/11/how-do-i-set-up-a-host-for-dynamic-dns/](https://www.namecheap.com/support/knowledgebase/article.aspx/43/11/how-do-i-set-up-a-host-for-dynamic-dns/)
@@ -48,7 +50,11 @@ Value: 127.0.0.1
   TTL: 5 min
 ```
 
-#### GoDaddy Instructions:
+</details>
+
+---
+
+<details><summary>GoDaddy Instructions: (click me to expand)</summary>
 
 The Following link explains how to add a Host A record:
 [https://www.godaddy.com/help/add-an-a-record-19238](https://www.godaddy.com/help/add-an-a-record-19238)
@@ -69,6 +75,8 @@ Points to: 127.0.0.1
 Points to: 127.0.0.1
       TTL: 10 min
 ```
+
+</details>
 
 ### I.b Enabling and Configuring Dynamic DNS
 
