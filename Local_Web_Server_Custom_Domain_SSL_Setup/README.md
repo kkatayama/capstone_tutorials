@@ -6,7 +6,7 @@ Conditions:
 
 Goals:
 * Enable your local web server to point to your domain (ex: mangoboat.tv) and be globally accessible
-* Enable HTTPS communication with your domain
+* Enable HTTPS communication with your domain using a `Lets Encrypt` certificate
 * Enforce HSTS by upgrading all HTTP requests to HTTPS
 
 Some comments on my setup:  
