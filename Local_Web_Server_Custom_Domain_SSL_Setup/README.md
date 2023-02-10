@@ -61,7 +61,7 @@ The Following link explains how to add a Host A record: [https://www.godaddy.com
 
 **Create an `A Record` with the following parameters:**
 > record for host domain
-```jq
+```rexx
      Type: A
      Host: @
 Points to: 127.0.0.1
@@ -69,7 +69,7 @@ Points to: 127.0.0.1
 ```
 **Add a second `A Record`:**
 > record for subdomains
-```ruby
+```rust
      Type: A
      Host: *
 Points to: 127.0.0.1
