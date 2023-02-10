@@ -454,7 +454,7 @@ sudo systemctl restart nginx
 **Now check your domains in a browser :)**
 > For me, that would be [mangoboat.tv](mangoboat.tv), [tautulli.mangoboat.tv](tautulli.mangoboat.tv), and [tautulli2.mangoboat.tv](tautulli2.mangoboat.tv)
 
-```diff
+```rexx
 Your domains should work but the browser may alert you that they are not secure!
 ```
 
