@@ -1,10 +1,10 @@
 # Configuring a Local WebServer with TLS and Custom Domain
 
-> Some comments on my setup::
-> On Christmas I was gifted the domain `mangoboat.tv` from a friend. 
-> This domain is registered it at [namecheap.com](https://www.namecheap.com)
-> My web server is running on an Ubuntu 22.04 machine in my home network.
-> My internet provider is Verizon FIOS
+> Some comments on my setup:  
+> On Christmas I was gifted the domain `mangoboat.tv` from a friend.  
+> This domain is registered it at [namecheap.com](https://www.namecheap.com)  
+> My web server is running on an Ubuntu 22.04 machine in my home network.  
+> My internet provider is Verizon FIOS  
 
 **My Setup**
 * domain: [mangoboat.tv](mangoboat.tv)
