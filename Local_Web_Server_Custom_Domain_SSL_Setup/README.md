@@ -7,11 +7,15 @@
 > My internet provider is Verizon FIOS  
 
 **My Setup**
-* domain: [mangoboat.tv](mangoboat.tv)
-* hosted: [namecheap.com](namecheap.com)
-* server: Ubuntu 22.04
-* webapp: Python Bottle
-* router: Verizon Fios CR1000A
+
+``` rexx
+domain: [mangoboat.tv](mangoboat.tv)
+hosted: [namecheap.com](namecheap.com)
+server: Ubuntu 22.04
+webapp: Python Bottle
+router: Verizon Fios CR1000A
+```
+
 
 
 ## I. Configuring DNS Settings for your Domain
