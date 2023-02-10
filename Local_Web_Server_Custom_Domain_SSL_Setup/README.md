@@ -318,7 +318,7 @@ https://192.168.1.1/#/adv/firewall/portforward
 > 192.168.1.44:8181  (tautulli2) -> tautulli2.mangoboat.tv  
 > ```
 
-### III.a Install NGINX and CertBot
+### 1. Install NGINX and CertBot
 
 **Install NGINX prerequisites**
 ```yaml
@@ -365,7 +365,7 @@ sudo snap install --classic certbot
 sudo ln -s /snap/bin/certbot /usr/bin/certbot
 ```
 
-### III.b Setup NGINX
+### 2. Setup NGINX
 
 **Create an NGINX config file for your site: mangoboat.tv**
 ```yaml
@@ -454,7 +454,10 @@ sudo systemctl restart nginx
 **Now check your domains in a browser :)**
 > For me, that would be [mangoboat.tv](mangoboat.tv), [tautulli.mangoboat.tv](tautulli.mangoboat.tv), and [tautulli2.mangoboat.tv](tautulli2.mangoboat.tv)
 
+```diff
 Your domains should work but the browser may alert you that they are not secure!
+```
+
 
 ### IV. Generate SSL Certificate for your Domains
 
