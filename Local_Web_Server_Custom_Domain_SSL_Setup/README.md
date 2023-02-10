@@ -9,8 +9,8 @@
 **My Setup**
 
 ``` rexx
-domain: [mangoboat.tv](mangoboat.tv)
-hosted: [namecheap.com](namecheap.com)
+domain: mangoboat.tv
+hosted: namecheap.com
 server: Ubuntu 22.04
 webapp: Python Bottle
 router: Verizon Fios CR1000A
