@@ -61,6 +61,50 @@ The Following link explains how to add a Host A record: [https://www.godaddy.com
 
 **Create an `A Record` with the following parameters:**
 > record for host domain
+<table>
+<tr><td> Option </td><td> Entry </td></tr><tr><td>
+
+```jq
+Type
+```
+</td><td>
+
+```jq
+A
+```
+</td></tr><tr></tr><tr><td>
+
+```rust
+Host
+```
+</td><td>
+
+```rust
+*
+```
+</td></tr><tr></tr><tr><td>
+
+```ruby
+Value
+```
+</td><td>
+
+```ruby
+127.0.0.1
+```
+</td></tr><tr></tr><tr><td>
+
+```rexx
+TTL
+```
+</td><td>
+
+```rexx
+5 min
+```
+</td></tr>
+</table>
+
 ```ini
      Type: A
      Host: @
