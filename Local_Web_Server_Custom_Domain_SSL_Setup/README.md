@@ -93,7 +93,7 @@ NameCheap supports both `ddclient` and `API`
 
 We will use `ddclient`
 
-Follow these steps to enable Dynamic DNS: [https://www.namecheap.com/support/knowledgebase/article.aspx/595/11/how-do-i-enable-dynamic-dns-for-a-domain/](https://www.namecheap.com/support/knowledgebase/article.aspx/595/11/how-do-i-enable-dynamic-dns-for-a-domain/)
+Follow these steps to enable Dynamic DNS: [how-do-i-enable-dynamic-dns-for-a-domain/](https://www.namecheap.com/support/knowledgebase/article.aspx/595/11/how-do-i-enable-dynamic-dns-for-a-domain/)
 
 Once you have enabled Dynamic DNS, we need to install a Dynamic DNS client on your webserver.
 The purpose of this: ...
