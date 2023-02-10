@@ -307,6 +307,8 @@ https://192.168.1.1/#/adv/firewall/portforward
 **Then click the `Apply Changes` button and you should see both rules:**
 ![firewall_4.png](firewall_4.png)
 
+---
+
 ## III. Setup NGINX Proxy, Certbot, and SSL Certificates
 > I have 3 webservers that I will setup to share the same SSL certificate.  
 > All 3 webservers are running on my LAN on three different machines (each have their own IP address).  
@@ -317,6 +319,8 @@ https://192.168.1.1/#/adv/firewall/portforward
 > 192.168.1.214:8282 (tautulli)  -> tautulli.mangoboat.tv  
 > 192.168.1.44:8181  (tautulli2) -> tautulli2.mangoboat.tv  
 > ```
+
+---
 
 ### 1. Install NGINX and CertBot
 
@@ -364,6 +368,8 @@ sudo snap install --classic certbot
 ```yaml
 sudo ln -s /snap/bin/certbot /usr/bin/certbot
 ```
+
+---
 
 ### 2. Setup NGINX
 
@@ -458,6 +464,7 @@ sudo systemctl restart nginx
 Your domains should work but the browser may alert you that they are not secure!
 ```
 
+---
 
 ### IV. Generate SSL Certificate for your Domains
 
