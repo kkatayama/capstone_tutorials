@@ -240,7 +240,7 @@ npm install --global godaddy-dns
 ```
 
 **Edit the Config File**
-```rust
+```ruby
 nano $HOME/.godaddy-dns.json
 ```
 
@@ -258,7 +258,7 @@ $HOME/.godaddy-dns.json
 ```
 
 **Locate the `godaddy-dns` binary**
-```bash
+```ruby
 which godaddy-dns
 ```
 outputs:
