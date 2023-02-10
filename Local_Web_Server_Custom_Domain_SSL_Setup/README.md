@@ -56,8 +56,9 @@ Value: 127.0.0.1
 
 <details><summary>GoDaddy Instructions: (click me to expand)</summary>
 <p>
+  
+The Following link explains how to add a Host A record:  
 
-The Following link explains how to add a Host A record:
 [https://www.godaddy.com/help/add-an-a-record-19238](https://www.godaddy.com/help/add-an-a-record-19238)
 
 **Create an `A Record` with the following parameters:**
