@@ -87,9 +87,11 @@ Some DNS Registrars support `DDNS` using a client, `API`, or both.
 ---
 
 <details><summary>NameCheap Instructions</summary>
+<p>
 
-> NameCheap supports both `ddclient` and `API`
-> We will use `ddclient`
+NameCheap supports both `ddclient` and `API`  
+
+We will use `ddclient`
 
 Follow these steps to enable Dynamic DNS: [https://www.namecheap.com/support/knowledgebase/article.aspx/595/11/how-do-i-enable-dynamic-dns-for-a-domain/](https://www.namecheap.com/support/knowledgebase/article.aspx/595/11/how-do-i-enable-dynamic-dns-for-a-domain/)
 
