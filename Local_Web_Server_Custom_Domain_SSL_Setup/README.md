@@ -84,7 +84,10 @@ Points_to: 127.0.0.1
 
 Some DNS Registrars support `DDNS` using a client, `API`, or both.
 
-#### NameCheap Instructions
+---
+
+<details><summary>NameCheap Instructions</summary>
+
 > NameCheap supports both `ddclient` and `API`
 > We will use `ddclient`
 
@@ -205,6 +208,10 @@ Feb 09 19:51:32 mal systemd[1]: Stopped LSB: Update dynamic domain name service 
 Feb 09 19:51:32 mal systemd[1]: Starting LSB: Update dynamic domain name service entries...
 Feb 09 19:51:32 mal systemd[1]: Started LSB: Update dynamic domain name service entries.
 ```
+
+</details>
+
+---
 
 **Now Check your DNS Records**
 > If all went well, the IP Addresses should have changed from `127.0.0.1`
