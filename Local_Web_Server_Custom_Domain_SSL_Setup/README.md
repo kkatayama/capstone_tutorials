@@ -235,12 +235,12 @@ website: [https://lmammino.github.io/godaddy-dns/](https://lmammino.github.io/go
 github: [https://github.com/lmammino/godaddy-dns](https://github.com/lmammino/godaddy-dns)
 
 **Install godaddy-dns**
-```ruby
+```yaml
 npm install --global godaddy-dns
 ```
 
 **Edit the Config File**
-```ruby
+```yaml
 nano $HOME/.godaddy-dns.json
 ```
 
@@ -262,7 +262,7 @@ $HOME/.godaddy-dns.json
 which godaddy-dns
 ```
 outputs:
-```
+```bash
 /usr/bin/godaddy-dns
 ```
 
@@ -283,13 +283,16 @@ crontab -e
 > If all went well, the IP Addresses should have changed from `127.0.0.1` to your external IP.
 ![dns_check.png](dns_check.png)
 
+</details>
 
 ## II. Configure Firewall - Forward Ports 80 and 443
 
 My Verizon FIOS router has an IP address of `192.168.1.1`
 
-**Login to your Router and go to Port Forwarding settings**
-For my router, port forwarding is located at: `Advanced > Security & Firewall > Port Forwarding`
+**Login to your Router and go to Port Forwarding settings**  
+
+For my router, port forwarding is located at: `Advanced > Security & Firewall > Port Forwarding`  
+
 https://192.168.1.1/#/adv/firewall/portforward
 ![firewall_1.png](firewall_1.png)
 
@@ -305,13 +308,13 @@ https://192.168.1.1/#/adv/firewall/portforward
 ![firewall_4.png](firewall_4.png)
 
 ## III. Setup NGINX Proxy, Certbot, and SSL Certificates
-> I have 3 webservers that I will setup to share the same SSL certificate.
-> All 3 webservers are running on my LAN on three different machines (each have their own IP address).
+> I have 3 webservers that I will setup to share the same SSL certificate.  
+> All 3 webservers are running on my LAN on three different machines (each have their own IP address).  
 > 
-> Goal for setup:
-> 192.168.1.37:5000  (backend)   -> mangoboat.tv
-> 192.168.1.214:8282 (tautulli)  -> tautulli.mangoboat.tv
-> 192.168.1.44:8181  (tautulli2) -> tautulli2.mangoboat.tv
+> Goal for setup:  
+> 192.168.1.37:5000  (backend)   -> mangoboat.tv  
+> 192.168.1.214:8282 (tautulli)  -> tautulli.mangoboat.tv  
+> 192.168.1.44:8181  (tautulli2) -> tautulli2.mangoboat.tv  
 
 ### III.a Install NGINX and CertBot
 
