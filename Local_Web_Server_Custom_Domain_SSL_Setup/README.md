@@ -285,6 +285,8 @@ crontab -e
 
 </details>
 
+---
+
 ## II. Configure Firewall - Forward Ports 80 and 443
 
 My Verizon FIOS router has an IP address of `192.168.1.1`
