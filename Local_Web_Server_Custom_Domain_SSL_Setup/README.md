@@ -19,14 +19,14 @@
 The first thing you will want to do is set up a host for the domain to make it globally reachable!  
 To do this, we will create a `DNS A Record` and associate it with your domain.
 
-### 1. - Creating a DNS A Record 
+### 1. Creating a DNS A Record 
 
 Two DNS A records need to be created, one for the host domain and the other for all subdomains.  
 We will assign the IP Address as `127.0.0.1` for both records as a placeholder.  
 After you create both records, your list should be similar to the following:
 ![dns_orig.png](dns_orig.png)
 
-#### 1.a - NameCheap Instructions:
+#### 1.a NameCheap Instructions:
 
 The Following link explains how to add a Host A record:
 [https://www.namecheap.com/support/knowledgebase/article.aspx/43/11/how-do-i-set-up-a-host-for-dynamic-dns/](https://www.namecheap.com/support/knowledgebase/article.aspx/43/11/how-do-i-set-up-a-host-for-dynamic-dns/)
