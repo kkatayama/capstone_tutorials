@@ -64,7 +64,7 @@ The Following link explains how to add a Host A record: [https://www.godaddy.com
 ```rexx
      Type: A
      Host: @
-Points to: 127.0.0.1
+Points_to: 127.0.0.1
       TTL: 10 min
 ```
 **Add a second `A Record`:**
@@ -72,7 +72,7 @@ Points to: 127.0.0.1
 ```rust
      Type: A
      Host: *
-Points to: 127.0.0.1
+Points_to: 127.0.0.1
       TTL: 10 min
 ```
 </p>
