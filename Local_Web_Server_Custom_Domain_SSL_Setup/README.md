@@ -56,6 +56,7 @@ Value: 127.0.0.1
 
 <details><summary>GoDaddy Instructions: (click me to expand)</summary>
 
+<p>
 The Following link explains how to add a Host A record:
 [https://www.godaddy.com/help/add-an-a-record-19238](https://www.godaddy.com/help/add-an-a-record-19238)
 
@@ -76,9 +77,13 @@ Points to: 127.0.0.1
       TTL: 10 min
 ```
 
+</p>
+
 </details>
 
-### I.b Enabling and Configuring Dynamic DNS
+---
+
+### 2. Enabling and Configuring Dynamic DNS
 
 Some DNS Registrars support `DDNS` using a client, `API`, or both.
 
