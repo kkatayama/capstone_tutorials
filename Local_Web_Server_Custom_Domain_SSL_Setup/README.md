@@ -1,21 +1,19 @@
 # Configuring a Local WebServer with TLS and Custom Domain
 
+Conditions:
+* You have a local web server running in your home LAN network
+* You purchase a domain (ex: mangoboat.tv) from a DNS Registrar (ex: namecheap.com)
+
+Goals:
+* Enable your local web server to point to your domain (ex: mangoboat.tv) and be globally accessible
+* Enable HTTPS communication with your domain
+* Enforce HSTS by upgrading all HTTP requests to HTTPS
+
 > Some comments on my setup:  
 > On Christmas I was gifted the domain `mangoboat.tv` from a friend.  
 > This domain is registered it at [namecheap.com](https://www.namecheap.com)  
 > My web server is running on an Ubuntu 22.04 machine in my home network.  
 > My internet provider is Verizon FIOS  
-
-**My Setup**
-
-``` rexx
-domain: mangoboat.tv
-hosted: namecheap.com
-server: Ubuntu 22.04
-webapp: Python Bottle
-router: Verizon Fios CR1000A
-```
-
 
 
 ## I. Configuring DNS Settings for your Domain
