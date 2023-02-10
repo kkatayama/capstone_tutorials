@@ -69,7 +69,7 @@ Points_to: 127.0.0.1
 ```
 **Add a second `A Record`:**
 > record for subdomains
-```rust
+```rexx
      Type: A
      Host: *
 Points_to: 127.0.0.1
