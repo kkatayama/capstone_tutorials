@@ -314,15 +314,6 @@ https://192.168.1.1/#/adv/firewall/portforward
 ---
 
 ## III. Setup NGINX Proxy, Certbot, and SSL Certificates
-> I have 3 webservers that I will setup to share the same SSL certificate.  
-> All 3 webservers are running on my LAN on three different machines (each have their own IP address).  
-> 
-> ```rexx
-> Goal for setup:  
-> 192.168.1.37:5000  (backend)   -> mangoboat.tv  
-> 192.168.1.214:8282 (tautulli)  -> tautulli.mangoboat.tv  
-> 192.168.1.44:8181  (tautulli2) -> tautulli2.mangoboat.tv  
-> ```
 
 ---
 
@@ -376,8 +367,17 @@ sudo ln -s /snap/bin/certbot /usr/bin/certbot
 ---
 
 ### 2. Setup NGINX
+> I have 3 webservers that I will setup to share the same SSL certificate.  
+> All 3 webservers are running on my LAN on three different machines (each have their own IP address).  
+> 
+> ```rexx
+> Goal for setup:  
+> 192.168.1.37:5000  (backend)   -> mangoboat.tv  
+> 192.168.1.214:8282 (tautulli)  -> tautulli.mangoboat.tv  
+> 192.168.1.44:8181  (tautulli2) -> tautulli2.mangoboat.tv  
+> ```
 
-**Create an NGINX config file for your site: mangoboat.tv**
+**Create an NGINX config file for your root domain: mangoboat.tv**
 ```yaml
 sudo nano /etc/nginx/sites-available/mangoboat.tv
 ```
