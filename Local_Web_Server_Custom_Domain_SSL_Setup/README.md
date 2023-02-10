@@ -31,7 +31,7 @@ After you create both records, your list should be similar to the following:
 <details><summary>NameCheap Instructions: (click me to expand)</summary>
 
 The Following link explains how to add a Host A record:
-[https://www.namecheap.com/support/knowledgebase/article.aspx/43/11/how-do-i-set-up-a-host-for-dynamic-dns/](https://www.namecheap.com/support/knowledgebase/article.aspx/43/11/how-do-i-set-up-a-host-for-dynamic-dns/)
+[how-do-i-set-up-a-host-for-dynamic-dns](https://www.namecheap.com/support/knowledgebase/article.aspx/43/11/how-do-i-set-up-a-host-for-dynamic-dns/)
 
 **Create an `A Record` with the following parameters:**
 > record for host domain
@@ -57,7 +57,7 @@ Value: 127.0.0.1
 <details><summary>GoDaddy Instructions: (click me to expand)</summary>
 <p>
   
-The Following link explains how to add a Host A record: [https://www.godaddy.com/help/add-an-a-record-19238](https://www.godaddy.com/help/add-an-a-record-19238)
+The Following link explains how to add a Host A record: [add-an-a-record-19238](https://www.godaddy.com/help/add-an-a-record-19238)
 
 **Create an `A Record` with the following parameters:**
 > record for host domain
@@ -93,7 +93,7 @@ NameCheap supports both `ddclient` and `API`
 
 We will use `ddclient`
 
-Follow these steps to enable Dynamic DNS: [how-do-i-enable-dynamic-dns-for-a-domain/](https://www.namecheap.com/support/knowledgebase/article.aspx/595/11/how-do-i-enable-dynamic-dns-for-a-domain/)
+Follow these steps to enable Dynamic DNS: [how-do-i-enable-dynamic-dns-for-a-domain](https://www.namecheap.com/support/knowledgebase/article.aspx/595/11/how-do-i-enable-dynamic-dns-for-a-domain/)
 
 Once you have enabled Dynamic DNS, we need to install a Dynamic DNS client on your webserver.
 The purpose of this: ...
@@ -211,18 +211,20 @@ Feb 09 19:51:32 mal systemd[1]: Starting LSB: Update dynamic domain name service
 Feb 09 19:51:32 mal systemd[1]: Started LSB: Update dynamic domain name service entries.
 ```
 
-</details>
-
----
-
 **Now Check your DNS Records**
 > If all went well, the IP Addresses should have changed from `127.0.0.1`
 ![dns_check.png](dns_check.png)
 
+</details>
 
-#### GoDaddy Instructions
-> GoDaddy does not support `ddclient` *I may add this later as ddclient is open source*.
-> We will use the GoDaddy `API`
+---
+
+<details><summary>GoDaddy Instructions</summary>
+<p>
+
+GoDaddy does not support `ddclient` *I may add this later as ddclient is open source*.
+
+We will use the GoDaddy `API`
 
 **Go to [https://developer.godaddy.com/keys](https://developer.godaddy.com/keys) and Register a New Key**
 > copy your `apiKey` and `secret` and save for later  
@@ -233,12 +235,12 @@ website: [https://lmammino.github.io/godaddy-dns/](https://lmammino.github.io/go
 github: [https://github.com/lmammino/godaddy-dns](https://github.com/lmammino/godaddy-dns)
 
 **Install godaddy-dns**
-```yaml
+```ruby
 npm install --global godaddy-dns
 ```
 
 **Edit the Config File**
-```yaml
+```rust
 nano $HOME/.godaddy-dns.json
 ```
 
@@ -256,11 +258,11 @@ $HOME/.godaddy-dns.json
 ```
 
 **Locate the `godaddy-dns` binary**
-```yaml
+```bash
 which godaddy-dns
 ```
 outputs:
-```bash
+```
 /usr/bin/godaddy-dns
 ```
 
