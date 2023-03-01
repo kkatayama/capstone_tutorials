@@ -500,7 +500,7 @@ Your domains should work but the browser may alert you that they are not secure!
 
 ---
 
-### IV. Generate SSL Certificate for your Domains
+## IV. Generate SSL Certificate for your Domains
 
 **Stop NGINX Service**
 ```yaml
