@@ -344,11 +344,6 @@ sudo apt update
 sudo apt install nginx
 ```
 
-**Start NGINX**
-```yaml
-sudo systemctl start nginx
-```
-
 **Update snapd**
 ```yaml
 sudo snap install core; sudo snap refresh core
@@ -366,7 +361,42 @@ sudo ln -s /snap/bin/certbot /usr/bin/certbot
 
 ---
 
-### 2. Setup NGINX
+### 2. Setup NGINX Config
+To avoid a possible hash bucket memory problem that can arise from adding additional server names, it is necessary to enable `server_names_hash_bucket_size` in the `/etc/nginx/nginx.conf` file.
+
+**Edit the NGINX Config File**
+```yaml
+sudo nano /etc/nginx/nginx.conf
+```
+
+Find the `server_names_hash_bucket_size` directive and remove the `#` symbol to uncomment the line:
+**/etc/nginx/nginx.conf**
+``` nginx
+...
+http {
+    ...
+    server_names_hash_bucket_size 64;
+    ...
+}
+...
+```
+
+Additionally, we need to make sure that site configs are enabled.  
+Look for the line `include /etc/nginx/conf.d/*.conf;` and underneath it should be this line: `include /etc/nginx/sites-enabled/*;`  
+If you do not see `include /etc/nginx/sites-enabled/*;` then add it.
+**/etc/nginx/nginx.conf**
+``` nginx
+...
+http {
+    ...
+	include /etc/nginx/conf.d/*.conf;
+	include /etc/nginx/sites-enabled/*;
+    ...
+}
+...
+```
+
+### 3. Setup NGINX Site Config
 > I have 3 webservers that I will setup to share the same SSL certificate.  
 > All 3 webservers are running on my LAN on three different machines (each have their own IP address).  
 > 
@@ -456,9 +486,9 @@ nginx: the configuration file /etc/nginx/nginx.conf syntax is ok
 nginx: configuration file /etc/nginx/nginx.conf test is successful
 ```
 
-**Restart NGINX**
+**Start NGINX**
 ```yaml
-sudo systemctl restart nginx
+sudo systemctl start nginx
 ```
 
 **Now check your domains in a browser :)**
