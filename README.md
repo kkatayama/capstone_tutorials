@@ -1,1 +1,2 @@
-# capstone_tutorials
+# Senior Design Capstone Lectures and Tutorials
+
