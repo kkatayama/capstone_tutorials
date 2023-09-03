@@ -3,12 +3,15 @@
 ## [Proposal Format and Examples](https://github.com/kkatayama/capstone_tutorials/tree/main/Proposal)
 
 **Proposal Format**
-[![Proposal Format](https://raw.githubusercontent.com/kkatayama/capstone_tutorials/main/Proposal/images/Proposal_Format.jpg)](https://github.com/kkatayama/capstone_tutorials/blob/main/Proposal/Proposal_Format.md)
+[![Proposal Format](https://raw.githubusercontent.com/kkatayama/capstone_tutorials/main/Proposal/images/proposal-format.png)](https://github.com/kkatayama/capstone_tutorials/blob/main/Proposal/Proposal_Format.md)
 
 **Example Proposals**
-![M2-Band](https://raw.githubusercontent.com/kkatayama/capstone_tutorials/main/Proposal/images/m2-band.png)
-![WALL-E](https://raw.githubusercontent.com/kkatayama/capstone_tutorials/main/Proposal/images/wall-e.png)
-![SKYNET](https://raw.githubusercontent.com/kkatayama/capstone_tutorials/main/Proposal/images/sky-net.png)
+
+
+| M2-Band | WALL-E | SKYNET |
+|:-:|:-:|:-:|
+| ![M2-Band](https://raw.githubusercontent.com/kkatayama/capstone_tutorials/main/Proposal/images/m2-band.png) | ![WALL-E](https://raw.githubusercontent.com/kkatayama/capstone_tutorials/main/Proposal/images/wall-e.png) | ![SKYNET](https://raw.githubusercontent.com/kkatayama/capstone_tutorials/main/Proposal/images/sky-net.png) |
+
 
 ## [Report Format and Examples](https://github.com/kkatayama/capstone_tutorials/tree/main/Report)
 
