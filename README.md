@@ -6,9 +6,9 @@
 [![Proposal Format](https://raw.githubusercontent.com/kkatayama/capstone_tutorials/main/Proposal/images/Proposal_Format.jpg)](https://github.com/kkatayama/capstone_tutorials/blob/main/Proposal/Proposal_Format.md)
 
 **Example Proposals**
-![M2-Band](https://raw.githubusercontent.com/kkatayama/capstone_tutorials/main/Proposal/images/Proposal_Example_3_M2-Band.jpg)
-![WALL-E](https://raw.githubusercontent.com/kkatayama/capstone_tutorials/main/Proposal/images/Proposal_Example_1_WALL-E.jpg)
-![SKYNET](https://raw.githubusercontent.com/kkatayama/capstone_tutorials/main/Proposal/images/Proposal_Example_2_SKYNET.jpg)
+![M2-Band](https://raw.githubusercontent.com/kkatayama/capstone_tutorials/main/Proposal/images/m2-band.png)
+![WALL-E](https://raw.githubusercontent.com/kkatayama/capstone_tutorials/main/Proposal/images/wall-e.png)
+![SKYNET](https://raw.githubusercontent.com/kkatayama/capstone_tutorials/main/Proposal/images/sky-net.png)
 
 ## [Report Format and Examples](https://github.com/kkatayama/capstone_tutorials/tree/main/Report)
 
