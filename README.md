@@ -5,9 +5,9 @@
 
 ### Proposal Format
 
-| Proposal Format | | |
-|:-:|:-:|:-:|
-| [![proposal-format.png](https://github.com/kkatayama/capstone_tutorials/blob/main/Proposal/images/proposal-format.png)](https://github.com/kkatayama/capstone_tutorials/blob/main/Proposal/Proposal_Format.pdf) | | |
+| Proposal Format |
+|:-:|
+| [![proposal-format-mini.png](https://github.com/kkatayama/capstone_tutorials/blob/main/Proposal/images/proposal-format-mini.png)](https://github.com/kkatayama/capstone_tutorials/blob/main/Proposal/Proposal_Format.pdf) | 
 
 ### Example Proposals
 
