@@ -20,7 +20,7 @@
 
 | M2-Band | WALL-E | SKYNET |
 |:-:|:-:|:-:|
-| ![M2-Band](https://raw.githubusercontent.com/kkatayama/capstone_tutorials/main/Proposal/images/m2-band.png) | ![WALL-E](https://raw.githubusercontent.com/kkatayama/capstone_tutorials/main/Proposal/images/wall-e.png) | ![SKYNET](https://raw.githubusercontent.com/kkatayama/capstone_tutorials/main/Proposal/images/sky-net.png) |
+| [![M2-Band](https://raw.githubusercontent.com/kkatayama/capstone_tutorials/main/Proposal/images/m2-band.png)](https://github.com/kkatayama/capstone_tutorials/blob/main/Proposal/Proposal_Example_3_M2-Band.pdf) | [![WALL-E](https://raw.githubusercontent.com/kkatayama/capstone_tutorials/main/Proposal/images/wall-e.png)](https://github.com/kkatayama/capstone_tutorials/blob/main/Proposal/Proposal_Example_1_WALL-E.pdf) | [![SKYNET](https://raw.githubusercontent.com/kkatayama/capstone_tutorials/main/Proposal/images/sky-net.png)](https://github.com/kkatayama/capstone_tutorials/blob/main/Proposal/Proposal_Example_2_SKYNET.pdf) |
 
 
 
