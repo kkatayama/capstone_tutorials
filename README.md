@@ -3,9 +3,7 @@
 
 ## Proposal Format and Examples
 
-### Proposal Format
-
-* ![Proposal_Format.pdf](https://github.com/kkatayama/capstone_tutorials/blob/main/Proposal/Proposal_Format.pdf)
+### [Proposal_Format.pdf](https://github.com/kkatayama/capstone_tutorials/blob/main/Proposal/Proposal_Format.pdf)
 
 <details><summary>Preview (click me to view the Proposal Format)</summary>
 <p>
