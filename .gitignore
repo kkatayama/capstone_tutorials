@@ -1,4 +1,10 @@
 # OSX Stuff
 .DS_Store
 
+lualatex_tests/
+xelatex_tests/
 
+convert_markdown_to_pdf_all_fonts.py
+convert_markdown_to_pdf.zsh
+Proposal_Format_2.md
+head.tex
