@@ -3,6 +3,7 @@
 
 lualatex_tests/
 xelatex_tests/
+testing/
 
 convert_markdown_to_pdf_all_fonts.py
 convert_markdown_to_pdf.zsh
