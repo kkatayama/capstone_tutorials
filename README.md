@@ -9,7 +9,7 @@
 <p>
 
 
-![proposal-format.png](https://github.com/kkatayama/capstone_tutorials/blob/main/Proposal/images/proposal-format.png)
+[![proposal-format.png](https://github.com/kkatayama/capstone_tutorials/blob/main/Proposal/images/proposal-format.png)](https://github.com/kkatayama/capstone_tutorials/blob/main/Proposal/Proposal_Format.pdf)_
 
 
 </p>
