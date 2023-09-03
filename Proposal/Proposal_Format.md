@@ -7,22 +7,22 @@
 * Please submit the DRAFT and FINAL PROPOSAL as a PDF file
     
 ## Proposal Outline 
-
 * Title of the Project (e.g. **"Wall Mapping Robot"**)
-* ONE or MULTI-WORD HYPHENATED Short Team Name (e.g. **"ROVER"**)  
-  - short team name can be Hyphenated and/or CamelCase (e.g. **"BLUE-TEETH"**, **"BlueTeeth"**, or **"Blue-Teeth"**)
-* A short, one-paragraph, multi-sentence overview of the project in the form of an abstract or small executive summary
+* Single or Multi-Word Short Team Name (e.g. **"ROVER"**)
+  - can be Hyphenated and/or CamelCase (e.g. **"BLUE-TEETH"**, **"BlueTeeth"**, or **"Blue-Teeth"**)
+* A short, one-paragraph, multi-sentence project overview (e.g. abstract or small executive summary)
 * List Team Members and Likely Responsibilities
 * Objectives (paragraphs)
   - what are you going to design and build?
-  - what is the specific "mission" of the project? e.g. for a wireless sensor project, "detect intruders and notify"
+  - what is the specific "mission" of the project?  
+    (e.g. for a wireless sensor project, "detect intruders and notify")
   - describe what is a success?
   - describe what is a failure?
   - who is your customer?
 * Design Constraints
-  - specify constraints on the design, e.g. size, weight, performance, interfaces, cost (i.e. $200)
+  - specify constraints on the design, e.g. size, weight, performance, interfaces, costs.
 * Goals 
-  - detail specific Fall goals (experiments, tests, prototypes) and specific Spring goals (finished system, results)
+  - detail specific **Fall goals** (experiments, tests, prototypes) and **Spring goals** (finished system, results)
 * Prototype
   - **The team should complete a reasonable prototype at the end of the fall semester;**
   - describe that prototype  
