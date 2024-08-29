@@ -1,16 +1,15 @@
 # Proposal Format
 
 ## 4-6 pages (can be longer)
-* Page lengths are based on pages being 12 point font (or smaller)
-* Page lengths are based on pages being "singled spaced"
+* Page lengths are based on pages being "single-spaced" with 12 point font (or smaller)
 * Recommend you use Google doc format to allow for simultaneous team editing.
 * **Please submit the DRAFT and FINAL PROPOSAL as a PDF file**
     
 ## Proposal Outline 
-* **Title of the Project** (e.g. `Wall Mapping Robot`)
-* **Short Team Name** - Single or Multi-Word (e.g. `ROVER`)
-  - hyphenated and/or CamelCase (e.g. `BLUE-TEETH`, `BlueTeeth`, or `Blue-Teeth`)
-* **Project Overview** - short, in the form of an `abstract` or `small executive summary`
+* **Title of the Project** (e.g. `"Wall Mapping Robot"`{.yaml})
+* **Short Team Name** - Single or Multi-Word (e.g. `"ROVER"`{.sql})
+  - hyphenated and/or CamelCase (e.g. `"BLUE-TEETH"`{.sql}, `"BlueTeeth"`{.sql}, or `"Blue-Teeth"`{.sql})
+* **Project Overview** - short, in the form of an `"abstract"`{.yaml} or `"small executive summary"`{.yaml}
 * **List Team Members and Likely Responsibilities**
 * **Objectives** (paragraphs)
   - what are you going to design and build?
@@ -19,12 +18,18 @@
   - describe what is a success?
   - describe what is a failure?
   - who is your customer?
-* **Design Constraints**
-  - specify constraints on the design, e.g. size, weight, performance, interfaces, costs, 
-  - are there any system requirements and/or assumptions?
-* **Goals** 
-  - detail specific `Fall goals` (experiments, tests, prototypes)
-  - also detail specific `Spring goals` (finished system, results)
+* **Realistic Design Constraints**
+  - Engineering Constraints - size, weight, power, performance, interfaces, spec, design
+  - Timing & Cost Constraints - dev/prod/delivery schedule, costs, overhead, parts, budget
+  - Legal/Ethical Constraints - regulations (OSHA, FAA, FDA), intellectual property, health, patents, copyrights
+  - Safety Constraints - warnings, training, environmental (land, sea, air, noise, light, radiation, reaction, transport)
+  - Functional Constraints - overall geometry, motion of parts, energy + forces involved, materials, control systems, information flow
+  - Manufacturing Constraints - production of components, purchase suppliers, quality control, assembly, transport
+  - Life-Cycle Constraints - distribution, operation, working environments, maintenance, service & repair, disposal, recycle, scrap
+  - Ecological Constraints - environmental inmpact, sustainability, political & commercial consequences, materials, toxicity, fluids, gas
+* **Goals**
+  - detail specific `"Fall Goals"`{.yaml} (experiments, tests, prototypes)
+  - also detail specific `"Spring Goals"`{.yaml} (finished system, results)
 * **Prototype**
   - **The team should complete a reasonable prototype at the end of the fall semester;**
   - describe that prototype  
